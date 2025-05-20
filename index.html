@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Galeri Van Gogh</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-50 text-gray-800 font-sans">
+
+  <!-- Navbar -->
+  <header class="bg-white shadow sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-yellow-600">🎨 Van Gogh Gallery</h1>
+      <nav class="space-x-6 hidden md:block">
+        <a href="#beranda" class="text-gray-600 hover:text-yellow-600">Beranda</a>
+        <a href="#tentang" class="text-gray-600 hover:text-yellow-600">Tentang</a>
+        <a href="#galeri" class="text-gray-600 hover:text-yellow-600">Galeri</a>
+        <a href="#kontak" class="text-gray-600 hover:text-yellow-600">Kontak</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="beranda" class="bg-gradient-to-r from-yellow-100 to-white py-12">
+    <div class="max-w-7xl mx-auto flex flex-col-reverse md:flex-row items-center px-6 gap-8">
+      <div class="md:w-1/2">
+        <h2 class="text-4xl font-bold text-yellow-700 mb-4">Mengenang Sang Maestro</h2>
+        <p class="text-gray-700 mb-6">Nikmati keindahan abadi karya Vincent van Gogh, seniman pasca-impresionis yang karyanya menggugah emosi dan penuh ekspresi.</p>
+        <a href="#galeri" class="bg-yellow-600 text-white px-6 py-3 rounded-full hover:bg-yellow-700 transition">Lihat Galeri</a>
+      </div>
+      <div class="md:w-1/2">
+        <img src="/assets/download.jpg" alt="Van Gogh" class="w-full rounded-full shadow-lg">
+      </div>
+    </div>
+  </section>
+
+  <!-- Tentang -->
+  <section id="tentang" class="py-16 bg-white">
+    <div class="max-w-5xl mx-auto px-6 text-center">
+      <h3 class="text-3xl font-semibold text-yellow-700 mb-6">Tentang Van Gogh</h3>
+      <p class="text-gray-600 leading-relaxed">Vincent van Gogh (1853–1890) adalah pelukis Belanda yang dikenal dengan gaya kuas ekspresif dan warna-warna berani. Meskipun hanya menjual sedikit lukisan semasa hidupnya, warisannya kini abadi sebagai salah satu seniman paling berpengaruh sepanjang masa.</p>
+    </div>
+  </section>
+
+  <!-- Galeri -->
+  <section id="galeri" class="py-16 bg-slate-100">
+    <div class="max-w-7xl mx-auto px-6">
+      <h3 class="text-3xl font-semibold text-center text-yellow-700 mb-10">Karya Terkenal</h3>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+
+        <!-- Starry Night -->
+        <div class="bg-white rounded-2xl shadow hover:shadow-lg transition">
+          <img src="/assets/download (1).jpg" class="w-full h-64 object-cover rounded-t-2xl" alt="Starry Night">
+          <div class="p-4">
+            <h4 class="font-semibold text-lg">The Starry Night</h4>
+            <p class="text-sm text-gray-500">Dilukis pada 1889 dari jendela rumah sakit jiwa, lukisan ini menampilkan langit malam berputar yang penuh emosi dan misteri.</p>
+          </div>
+        </div>
+
+        <!-- Sunflowers -->
+        <div class="bg-white rounded-2xl shadow hover:shadow-lg transition">
+          <img src="/assets/download (2).jpg" class="w-full h-64 object-cover rounded-t-2xl" alt="Sunflowers">
+          <div class="p-4">
+            <h4 class="font-semibold text-lg">Sunflowers</h4>
+            <p class="text-sm text-gray-500">Salah satu seri bunga matahari yang melambangkan kehidupan dan kematian, dicintai karena warna kuning cerah dan semangat hidupnya.</p>
+          </div>
+        </div>
+
+        <!-- Café Terrace at Night -->
+        <div class="bg-white rounded-2xl shadow hover:shadow-lg transition">
+          <img src="/assets/Van_Gogh_-_Terrasse_des_Cafés_an_der_Place_du_Forum_in_Arles_am_Abend1.jpeg" class="w-full h-64 object-cover rounded-t-2xl" alt="Cafe Terrace at Night">
+          <div class="p-4">
+            <h4 class="font-semibold text-lg">Café Terrace at Night</h4>
+            <p class="text-sm text-gray-500">Suasana malam yang hangat di Arles, Prancis — menjadi ikon dengan perpaduan langit biru dan cahaya emas.</p>
+          </div>
+        </div>
+
+        <!-- Wheatfield with Crows -->
+        <div class="bg-white rounded-2xl shadow hover:shadow-lg transition">
+          <img src="/assets/download (3).jpg" alt="Wheatfield with Crows">
+          <div class="p-4">
+            <h4 class="font-semibold text-lg">Wheatfield with Crows</h4>
+            <p class="text-sm text-gray-500">Lukisan penuh simbolisme yang sering dianggap sebagai karya terakhir Van Gogh. Langit gelap dan gagak menciptakan suasana dramatis.</p>
+          </div>
+        </div>
+
+        <!-- Bedroom in Arles -->
+        <div class="bg-white rounded-2xl shadow hover:shadow-lg transition">
+          <img src="/assets/download (4).jpg" alt="Bedroom in Arles">
+          <div class="p-4">
+            <h4 class="font-semibold text-lg">Bedroom in Arles</h4>
+            <p class="text-sm text-gray-500">Gambaran ruang pribadinya yang sederhana namun hangat, mencerminkan ketenangan yang ia dambakan.</p>
+          </div>
+        </div>
+
+        <!-- Irises -->
+        <div class="bg-white rounded-2xl shadow hover:shadow-lg transition">
+          <img src="/assets/licensed-image.jpg" class="w-full h-64 object-cover rounded-t-2xl" alt="Irises">
+          <div class="p-4">
+            <h4 class="font-semibold text-lg">Irises</h4>
+            <p class="text-sm text-gray-500">Lukisan bunga irises yang ia buat saat dirawat di rumah sakit jiwa. Penuh gerak, warna, dan harapan.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Kontak -->
+  <section id="kontak" class="py-16 bg-white">
+    <div class="max-w-4xl mx-auto px-6 text-center">
+      <h3 class="text-3xl font-semibold text-yellow-700 mb-6">Kontak & Sumber</h3>
+      <p class="text-gray-600 mb-6">Untuk informasi lebih lanjut atau pengajuan edukasi seni, hubungi kami melalui media berikut.</p>
+      <div class="flex justify-center gap-4">
+        <a href="#" class="bg-yellow-600 text-white px-5 py-2 rounded-full hover:bg-yellow-700 transition">Instagram</a>
+        <a href="#" class="bg-gray-800 text-white px-5 py-2 rounded-full hover:bg-gray-900 transition">Email</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-slate-200 py-4 text-center text-sm text-gray-600">
+    &copy; 2025 Galeri Van Gogh. Cinta pada seni tak pernah pudar.
+  </footer>
+
+</body>
+</html>
